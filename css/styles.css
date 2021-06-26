@@ -163,7 +163,7 @@ body {
   background-image: url("../images/mobile-background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: 100vmax;
   height: calc(100vh - 54px);
   text-align: center;
 }
@@ -249,7 +249,7 @@ body {
           align-items: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .header {
     height: 80px;
   }
